@@ -28,7 +28,7 @@ Como usar:
      from sklearn.datasets import load_iris
      from sklearn.model_selection import train_test_split
      from sklearn.preprocessing import StandardScaler
-     from src.treated_mlp import TreatedMLP
+     import mymodel
    - Carregar e normalizar dataset
    - Definir função de feature engineering
    - Criar modelo e treinar
@@ -52,3 +52,4 @@ Possíveis melhorias:
 
 Autor:
 Vitor Quirino - projeto criado como experimento de MLP customizado em PyTorch
+
